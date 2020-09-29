@@ -1,32 +1,48 @@
-
 body {
+  margin: 0;
   font-family: Arial, Verdana, sans-serif;
 }
+
 /* Linkatributter hentet fra w3school */
+
 a:link {
   color: gray;
   font-style: italic;
   font-weight: bolder;
 }
+
 a:visited {
   color: rgb(139, 98, 105);
   background-color: transparent;
   text-decoration: none;
 }
+
 a:hover {
   color: rgb(78, 22, 22);
   background-color: transparent;
   text-decoration: underline;
 }
+
 a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
 }
-
+/* fjerner mellomrommet mellom fargeblokkene */
+.textblock {
+  overflow: auto;
+}
 
 .header {
   background-color: rgb(255, 239, 224);
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.main {
+  margin-top: 50px;
 }
 
 .color2 {
