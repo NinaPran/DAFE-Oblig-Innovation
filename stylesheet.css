@@ -28,7 +28,7 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-
+/* endrer farge på header, setter høyden til 50px, sørger for at den blir med på scrolling, går over hele skjermen horisontalt, at den er helt i toppen og tekst på riktig sted*/
 .header {
   background-color: rgb(255, 239, 224);
   height: 50px;
@@ -54,7 +54,7 @@ a:active {
   background: #ddd;
   color: black;
 }
-
+/* sørger for at menyen ikke dekker over skriften*/
 .main {
   margin-top: 50px;
 }
@@ -71,18 +71,18 @@ h2 {
 p {
   line-height: 25px;
 }
-
+/* sørger for at det ikke blir hvite kanter rundt bilde og tekst */
 .wrapping{
   overflow: auto;
 }
-
+/* sørger for at det ikke er hvite kanter rundt tekstboksen, teksten er 50% av boks-bredden og at det er rom rundt teksten*/
 .textblock {
   overflow: auto;
   width: 50%;
   padding: 0px 50px;
 
 }
-
+/* sørger for at det ikke er hvite kanter rundt tekstkolonene i NOvid, teksten er 50% av boks-bredden og at de kommer vedsiden av hverandre*/
 .text-column{
   overflow: auto;
   width: 50%;
@@ -101,24 +101,24 @@ p {
   width: 50%;
 }
 
-
+/* sørger for at for stort bilde ikke går inn i teksten, og setter størrelse 50% av bredden */
 .image {
   overflow: hidden;
   width: 50%;
 }
-
+/* endrer på størrelsen på logoen til save the childre*/
 .image-save-the-children{
-
+width: 50%;
 }
-
+/* setter bilde til venstre*/
 .imageYoungChildren{
   float: left;
 }
-
+/* setter bilde til høyre*/
 .imageChildren{
   float: right;
 }
-
+/* setter bilde av strekmennene med knapp til venstre*/
 .imageNOvid{
   float: left;
 }
@@ -134,21 +134,22 @@ p {
 .color4 {
   background-color: rgb(255, 250, 223);
   }
-
+/*setter farge på boksen som teksten "to the top" ligger i og at fargen går helt ut */
   .toTheTop{
     background-color: rgb(255, 250, 223);
     overflow: auto;
   }
+  /* senterer linken "to the top" og setter farge*/
   .toTheTop a{
     text-align: center;
         color:rgb(230, 61, 42)
   }
-
+/* får kontaktinfo til å gå horisontalt i footer og farge*/
 .footer{
   display: flex;
   background-color: rgb(255, 250, 223);
 }
-
+/* senterstiller kontaktinfo-teksten, får de til å gå horisontalt, setter farge og får fargen til å gå helt ut*/
 .contact {
   text-align: center;
   flex: auto;
@@ -159,15 +160,15 @@ p {
   }
 
 
-/* Box hentet fra Tengel sin undervisning*/
+/* Box hentet fra Tengel sin undervisning gjør siden responsiv ved ending av søkevindustørrelse*/
 * {
   box-sizing: border-box;
 }
 
-.col-small-text{ width: 100%;}
-.col-small-image{ width: 100%;}
+.col-text-responsive{ width: 100%;}
+.col-image-responsive{ width: 100%;}
 
 @media only screen and (min-width: 1000px){
-.col-big-text{ width: 50%;}
-.col-big-image{ width: 50%;}
+.col-text-responsive{ width: 50%;}
+.col-image-responsive{ width: 50%;}
 }
