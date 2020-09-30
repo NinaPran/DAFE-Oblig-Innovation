@@ -149,18 +149,12 @@ a:active {
   box-sizing: border-box;
 }
 
-[Class*="col-"]{
-  float: left;
-  padding: 1vw;
-  border: 1px white;
-}
-
-.col-small-40{ width: 100%;}
-.col-small-60{ width: 100%;}
+.col-small-text{ width: 100%;}
+.col-small-image{ width: 100%;}
 
 @media only screen and (min-width: 1000px){
-.col-tall-20{ width: 50%;}
-.col-tall-80{ width: 50%;}
+.col-big-text{ width: 50%;}
+.col-big-image{ width: 50%;}
 }
 
 
