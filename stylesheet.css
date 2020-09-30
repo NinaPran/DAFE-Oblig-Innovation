@@ -35,6 +35,7 @@ a:active {
   position: fixed;
   width: 100%;
   top: 0;
+  padding-right: 45px;
 }
 
 /* header hover hentet fra w3school */
@@ -58,6 +59,19 @@ a:active {
   margin-top: 50px;
 }
 
+h2 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.dropouts {
+  margin-bottom: 0px;
+}
+
+p {
+  line-height: 25px;
+}
+
 .wrapping{
   overflow: auto;
 }
@@ -75,6 +89,10 @@ a:active {
   float: left;
 }
 
+.list {
+  line-height: 25px;
+}
+
 .novid-logo-container{
   width: 100%;
 }
@@ -90,26 +108,23 @@ a:active {
 }
 
 .image-save-the-children{
-  
+
 }
 
 .imageYoungChildren{
   float: left;
-  
 }
 
 .imageChildren{
   float: right;
-  
 }
 
 .imageNOvid{
   float: left;
-  
 }
 
 .color2 {
-  background-color: rgb(210, 150, 93);
+  background-color: rgb(210, 150, 93, 0.36);
 }
 
 .color3 {
@@ -128,7 +143,6 @@ a:active {
     text-align: center;
         color:rgb(230, 61, 42)
   }
-   
 
 .footer{
   display: flex;
@@ -140,10 +154,11 @@ a:active {
   flex: auto;
   top: 0;
   background-color: rgb(255, 250, 223);
+  margin-bottom: 20px;
   overflow: auto;
   }
 
-  
+
 /* Box hentet fra Tengel sin undervisning*/
 * {
   box-sizing: border-box;
@@ -156,6 +171,3 @@ a:active {
 .col-big-text{ width: 50%;}
 .col-big-image{ width: 50%;}
 }
-
-
-  
