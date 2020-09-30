@@ -28,7 +28,9 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
 /* fjerner mellomrommet mellom fargeblokkene */
+
 .textblock {
   overflow: auto;
 }
@@ -40,12 +42,17 @@ a:active {
   width: 100%;
   top: 0;
 }
+
+/* header hover hentet fra w3school */
+
 .header a {
   float: right;
   display: block;
   text-align: center;
   padding: 14px 16px;
   font-size: 17px;
+  color: rgb(230, 61, 42);
+  text-decoration: none;
 }
 
 .header a:hover {
@@ -67,4 +74,29 @@ a:active {
 
 .color4 {
   background-color: rgb(255, 250, 223);
+  }
+
+  .toTheTop{
+    background-color: rgb(255, 250, 223);
+    overflow: auto;
+  }
+  .toTheTop a{
+    text-align: center;
+        color:rgb(230, 61, 42)
+  }
+   
+
+.footer{
+  display: flex;
+  background-color: rgb(255, 250, 223);
 }
+
+.contact {
+  text-align: center;
+  flex: auto;
+  top: 0;
+  background-color: rgb(255, 250, 223);
+  overflow: auto;
+  }
+
+  
