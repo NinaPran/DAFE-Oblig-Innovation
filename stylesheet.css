@@ -143,7 +143,10 @@ setter størrelse 50% av bredden */
   overflow: hidden;
   width: 50%;
 }
+
+/* sørger for at menyen bringer til riktig sted når det er fixed meny*/
 .anchor { padding-top: 50px; }
+
 /* endrer på størrelsen på logoen til save the childre*/
 
 .image-save-the-children {
