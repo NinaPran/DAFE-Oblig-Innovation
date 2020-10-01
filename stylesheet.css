@@ -64,8 +64,9 @@ a:active {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 28px;
   margin-bottom: 0px;
+  margin-top: 50px;
 }
 
 .dropouts {
@@ -74,10 +75,6 @@ h2 {
 
 p {
   line-height: 25px;
-}
-
-h2{
-  margin-top: 50px;
 }
 
 /* sørger for at det ikke blir hvite kanter rundt bilde- og tekst-blokken */
@@ -134,9 +131,11 @@ h2{
 /* endrer på størrelsen på logoen til save the childre*/
 
 .image-save-the-children {
-  width: 50%;
+  width: 30%;
 }
-
+.image-save-the-children-container {
+  width: 100%;
+}
 /* setter bilde til venstre*/
 
 .imageYoungChildren {
