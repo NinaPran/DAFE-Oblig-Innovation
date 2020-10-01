@@ -63,7 +63,7 @@ a:active {
   margin-top: 50px;
 }
 
-h1{
+h1 {
   margin-bottom: 0;
 }
 
@@ -75,6 +75,11 @@ h2 {
 
 p {
   line-height: 25px;
+}
+
+/* fjerner 4px ekstra fra under bilder  */
+img {
+  display: block;
 }
 
 /* sørger for at det ikke blir hvite kanter rundt bilde- og tekst-blokken */
@@ -99,13 +104,14 @@ p {
   float: left;
 }
 
-.brief-style{
+.brief-style {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 20px;
 }
-.brief-style-p{
+
+.brief-style-p {
   margin-top: 0px;
   margin-bottom: 48px;
 }
@@ -114,7 +120,7 @@ p {
   margin-bottom: 0px;
 }
 
-.distance-to-link{
+.distance-to-link {
   margin-top: -10px;
 }
 
@@ -130,7 +136,8 @@ p {
   width: 50%;
 }
 
-/* sørger for at for stort bilde ikke går inn i teksten, og setter størrelse 50% av bredden */
+/* sørger for at for stort bilde ikke går inn i teksten og 
+setter størrelse 50% av bredden */
 
 .image {
   overflow: hidden;
@@ -142,9 +149,11 @@ p {
 .image-save-the-children {
   width: 45%;
 }
+
 .image-save-the-children-container {
   width: 100%;
 }
+
 /* setter bilde til venstre*/
 
 .imageYoungChildren {
@@ -182,7 +191,7 @@ p {
   overflow: auto;
   width: auto;
   text-align: center;
-  }
+}
 
 /* senterer linken "to the top" og setter farge*/
 
