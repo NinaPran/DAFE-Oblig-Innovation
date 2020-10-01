@@ -72,17 +72,12 @@ h2 {
   margin-bottom: 0px;
 }
 
-.brief-style{
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 0px;
-}
-.brief-style-p{
-  margin-top: 5px;
-}
-
 p {
   line-height: 25px;
+}
+
+h2{
+  margin-top: 50px;
 }
 
 /* sørger for at det ikke blir hvite kanter rundt bilde- og tekst-blokken */
@@ -96,7 +91,7 @@ p {
 .textblock {
   overflow: auto;
   width: 50%;
-  padding: 0px 50px;
+  padding: 0px 80px;
 }
 
 /* sørger for at det ikke er hvite kanter rundt tekstkolonene i NOvid, teksten er 50% av boks-bredden og at de kommer vedsiden av hverandre*/
@@ -105,6 +100,16 @@ p {
   overflow: auto;
   width: 50%;
   float: left;
+}
+
+.brief-style{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.brief-style-p{
+  margin-top: 5px;
+  margin-bottom: 60px;
 }
 
 .list {
