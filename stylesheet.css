@@ -145,7 +145,10 @@ setter størrelse 50% av bredden */
 }
 
 /* sørger for at menyen bringer til riktig sted når det er fixed meny, men dette gir et annet problem
-.anchor { padding-top: 50px; }*/
+.anchor { 
+  padding-top: 50px;
+  margin-top: -50%;
+ }*/
 
 /* endrer på størrelsen på logoen til save the childre*/
 
