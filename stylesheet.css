@@ -63,6 +63,10 @@ a:active {
   margin-top: 50px;
 }
 
+h1{
+  margin-bottom: 0;
+}
+
 h2 {
   font-size: 28px;
   margin-bottom: 0px;
@@ -103,10 +107,15 @@ p {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 0px;
+  margin-top: 20px;
 }
 .brief-style-p{
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 60px;
+}
+
+.distance-to-link{
+  margin-top: -10px;
 }
 
 .list {
@@ -131,7 +140,7 @@ p {
 /* endrer på størrelsen på logoen til save the childre*/
 
 .image-save-the-children {
-  width: 30%;
+  width: 45%;
 }
 .image-save-the-children-container {
   width: 100%;
