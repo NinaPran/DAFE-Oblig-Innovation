@@ -6,19 +6,19 @@ body {
 /* Linkatributter hentet fra w3school */
 
 a:link {
-  color: rgb(48, 34, 36);
+  color: rgb(0, 0, 0);
   font-style: italic;
   font-weight: bolder;
 }
 
 a:visited {
-  color: rgb(139, 98, 105);
+  color: rgb(137, 124, 126);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(139, 98, 105);
   background-color: transparent;
   text-decoration: underline;
 }
