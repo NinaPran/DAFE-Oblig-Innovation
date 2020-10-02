@@ -6,7 +6,7 @@ body {
 /* Linkatributter hentet fra w3school */
 
 a:link {
-  color: gray;
+  color: rgb(78, 22, 22);
   font-style: italic;
   font-weight: bolder;
 }
@@ -18,7 +18,7 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(78, 22, 22);
+  color: rgb(17, 12, 12);
   background-color: transparent;
   text-decoration: underline;
 }
@@ -136,7 +136,7 @@ img {
   width: 50%;
 }
 
-/* sørger for at for stort bilde ikke går inn i teksten og 
+/* sørger for at for stort bilde ikke går inn i teksten og
 setter størrelse 50% av bredden */
 
 .image {
