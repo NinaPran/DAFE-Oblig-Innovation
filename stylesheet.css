@@ -18,7 +18,7 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(48, 34, 36);
+  color: rgb(78, 22, 22);
   background-color: transparent;
   text-decoration: underline;
 }
@@ -136,19 +136,13 @@ img {
   width: 50%;
 }
 
-/* sørger for at for stort bilde ikke går inn i teksten og
+/* sørger for at for stort bilde ikke går inn i teksten og 
 setter størrelse 50% av bredden */
 
 .image {
   overflow: hidden;
   width: 50%;
 }
-
-/* sørger for at menyen bringer til riktig sted når det er fixed meny, men dette gir et annet problem
-.anchor {
-  padding-top: 50px;
-  margin-top: -50%;
- }*/
 
 /* endrer på størrelsen på logoen til save the childre*/
 
