@@ -175,6 +175,11 @@ setter størrelse 50% av bredden */
 
 .imageNOvid {
   float: left;
+  background-color: white;
+}
+.novid-drawing{
+  width: 400px;
+  margin: 0 auto;
 }
 
 .color2 {
@@ -240,7 +245,7 @@ setter størrelse 50% av bredden */
   width: 100%;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .col-text-responsive {
     width: 50%;
   }
