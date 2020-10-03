@@ -78,6 +78,7 @@ p {
 }
 
 /* fjerner 4px ekstra fra under bilder  */
+
 img {
   display: block;
 }
@@ -105,6 +106,7 @@ img {
 }
 
 /*styler brief header og avstand til tekst*/
+
 .brief-style {
   font-size: 30px;
   font-weight: bold;
@@ -125,7 +127,7 @@ img {
   margin-top: -10px;
 }
 
-.list-header{
+.list-header {
   margin-left: 25px;
   margin-bottom: -10px;
 }
@@ -170,7 +172,8 @@ setter størrelse 50% av bredden */
   float: left;
   background-color: white;
 }
-.novid-drawing{
+
+.novid-drawing {
   width: 400px;
   margin: 0 auto;
 }
