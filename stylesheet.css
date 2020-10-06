@@ -193,7 +193,6 @@ setter størrelse 50% av bredden */
 /*setter farge på boksen som teksten "to the top" ligger i og at fargen går helt ut */
 
 .toTheTop {
-  background-color: rgb(255, 239, 224);
   overflow: auto;
   width: auto;
   text-align: center;
@@ -215,7 +214,6 @@ setter størrelse 50% av bredden */
 
 .footer {
   display: flex;
-  background-color: rgb(255, 250, 223);
 }
 
 /* senterstiller kontaktinfo-teksten, får de til å gå horisontalt, setter farge og får fargen til å gå helt ut*/
